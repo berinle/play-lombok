@@ -1,0 +1,11 @@
+@(persons: List[Person])
+
+@main("some meaningful message here") {
+    <table>
+        @for(person <- persons){
+        <tr>
+            <td>@person.getName()</td>
+        </tr>
+        }
+    </table>
+}

@@ -6,6 +6,7 @@ import views.html.*;
 import java.util.*;
 
 import models.*;
+import views.html.person.list;
 
 public class Application extends Controller {
   
@@ -19,7 +20,8 @@ public class Application extends Controller {
 
   	System.out.println(persons.size());
 
-  	return TODO;
+  	return ok(list.render(persons));
+//      return TODO;
   }
   
 }
