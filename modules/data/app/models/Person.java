@@ -1,9 +1,9 @@
-import play.data.*;
+package models;
+
 import play.db.ebean.*;
 
 import javax.persistence.*;
 import lombok.*;
-import java.util.*;
 
 
 @Entity
